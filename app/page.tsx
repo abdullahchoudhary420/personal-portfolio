@@ -322,7 +322,6 @@ export default function Home() {
           {/* Footer */}
           <footer className="py-12 px-6 text-center border-t border-white/5 text-slate-500 text-sm">
             <p>© {new Date().getFullYear()} {resumeData.basics.name}. All rights reserved.</p>
-            <p className="mt-2">Built with Next.js, Tailwind CSS, and Framer Motion.</p>
           </footer>
         </motion.main>
       )}
