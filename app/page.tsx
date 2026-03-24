@@ -39,9 +39,9 @@ export default function Home() {
             <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
               <div className="font-bold tracking-tighter text-xl">AN.</div>
               <div className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-400">
+                <a href="#projects" className="hover:text-white transition-colors">Projects</a>
                 <a href="#experience" className="hover:text-white transition-colors">Experience</a>
                 <a href="#achievements" className="hover:text-white transition-colors">Achievements</a>
-                <a href="#projects" className="hover:text-white transition-colors">Projects</a>
                 <a href="#skills" className="hover:text-white transition-colors">Skills</a>
               </div>
             </div>
@@ -73,10 +73,10 @@ export default function Home() {
 
               <div className="flex flex-wrap items-center gap-4">
                 <a
-                  href="#experience"
+                  href="#projects"
                   className="px-6 py-3 bg-white text-slate-950 font-medium rounded-lg hover:bg-slate-200 transition-colors flex items-center gap-2"
                 >
-                  View Experience
+                  View Projects
                   <ChevronDown className="w-4 h-4" />
                 </a>
                 <a
